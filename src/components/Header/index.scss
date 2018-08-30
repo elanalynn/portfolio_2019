@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: #1d294b;
+  color: #fff;
+  padding: 1em;
+
+  h1 {
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #ffe600;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+}
