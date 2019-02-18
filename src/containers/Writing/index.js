@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
-import './index.scss';
+import React from 'react'
+// import { Post } from '../../components/Project'
+// import { writingData } from './writingData'
+import './index.scss'
 
-class Writing extends Component {
-  render() {
-    return (
-      <div>
-        This is the Writing container!
-      </div>
-    );
-  }
+export const Writing = props => {
+  return (
+    <section className="writing">
+      <h2>Writing.</h2>
+      { [].map((post, i) => <div>hi</div>) }
+    </section>
+  )
 }
-
-export default Writing;
