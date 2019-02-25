@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import { Header } from './components/Header'
-import { About } from './containers/About'
-import { Projects } from './containers/Projects'
-import { Writing } from './containers/Writing'
-import { Resume } from './containers/Resume'
+import { Main } from './containers/Main'
+import { Shad } from './containers/Shad'
+
 import './App.scss';
 
 class App extends Component {
@@ -11,12 +11,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <main>
-          <About />
-          <Projects />
-          {/* <Writing /> */}
-          <Resume />
-        </main>
+        <Router>
+          <div>
+            <Route exact path="/" component={Main} />
+            <Route exact path="/shad" component={Shad} />
+          </div>
+        </Router>
       </div>
     )
   }

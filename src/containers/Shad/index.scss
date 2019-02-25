@@ -1,0 +1,14 @@
+.shad {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: hotpink;
+  color: navy;
+
+  h1 {
+    font-size: 4em;
+  }
+}
