@@ -10,6 +10,6 @@ export const projectData = [
     title: 'TIL',
     githubUrl: 'https://github.com/elanalynn/til',
     liveUrl: 'https://todayilearned-client.herokuapp.com/',
-    description: 'TIL (Today I Learned) helps you track the little things you learn throughout the day. Quickly add a note t any time. Features search and random throwbacks to refresh your memory.'
+    description: 'TIL (Today I Learned) helps you track the little things you learn throughout the day. Features search and random throwbacks to refresh your memory.'
   }
 ]
