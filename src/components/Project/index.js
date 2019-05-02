@@ -8,13 +8,14 @@ import './index.scss'
 export const Project = props => {
   return (
     <div className="project">
-      <img src={props.title === 'booklub' ? booklub : til} alt={props.title} />
       <div>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
       </div>
-      <a href={props.githubUrl} target="_blank"><img className="icon" src={github} alt="GitHub"/></a>
-      <a href={props.liveUrl} target="_blank"><img className="icon" src={link} alt="Live Project Link"/></a>
+      <div>
+        <a href={props.githubUrl} target="_blank"><img className="icon" src={github} alt="GitHub"/></a>
+        <a href={props.liveUrl} target="_blank"><img className="icon" src={link} alt="Live Project Link"/></a>
+      </div>
     </div>
   )
 }
